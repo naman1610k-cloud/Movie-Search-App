@@ -29,7 +29,7 @@ const getData = async () => {
             results.innerHTML += `<div class="skeleton"></div>`;
         }
 
-        const URL = `http://www.omdbapi.com/?apikey=${key}&s=${val}&page=${currentPage}`
+        const URL = `https://www.omdbapi.com/?apikey=${key}&s=${val}&page=${currentPage}`
         let res = await fetch(URL);
         let data = await res.json();
 

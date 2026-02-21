@@ -6,7 +6,7 @@ const id = params.get("id");
 const container = document.getElementById("movieDetail");
 
 async function loadMovie() {
-  const res = await fetch(`http://www.omdbapi.com/?apikey=${key}&i=${id}`);
+  const res = await fetch(`https://www.omdbapi.com/?apikey=${key}&i=${id}`);
   const data = await res.json();
 
   container.innerHTML = `
