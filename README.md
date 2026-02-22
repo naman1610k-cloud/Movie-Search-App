@@ -12,6 +12,9 @@ A responsive movie search web application built using Javascript and the OMDb AP
 -🖼 Image fallback handling
 -📱 Fully Responsive 
 
+## Check live demo 🚀 
+https://movie-search-app2007.netlify.app/
+
 ## 🛠 Tech Stack 
 
 - HTML
